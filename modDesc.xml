@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="63">
+	<author>CuratoFarms</author>
+    <version>1.0.0.1</version>
+	<title>
+        <en>Free Fences And Bushes</en>
+        <de>Kostenlose Zäune Und Büsche</de>
+        <fr>Clôtures Et Buissons Gratuits</fr>
+    </title>
+    <description>
+<en><![CDATA[This mod makes placing Fences, Gate and Bushes free
+Changelog 1.0.0.1:
+-Grape Vines and Olive Groves are no longer placed for free
+]]>
+</en>
+<de><![CDATA[Dieser Mod macht das Platzieren von Zäunen, Toren und Büschen kostenlos
+Changelog 1.0.0.1:
+-Weinreben und Olivenhaine werden nicht mehr kostenlos platziert
+]]>
+</de>
+<fr><![CDATA[Ce mod permet de placer des clôtures, des portes et des buissons gratuitement
+Changelog 1.0.0.1:
+-Les vignes et les oliveraies ne sont plus placées gratuitement
+]]>
+</fr>
+    </description>
+	
+	<multiplayer supported="true" />
+	<iconFilename>modIcon.dds</iconFilename>
+	<extraSourceFiles>
+		<sourceFile filename="src/freeFences.lua" />
+	</extraSourceFiles>
+</modDesc>
+
+
