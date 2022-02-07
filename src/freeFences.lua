@@ -9,18 +9,6 @@
 function ConstructionBrushFence:getPrice(length)
 
 
-
- -- if self.storeItem.name == 'Grapevine'
-        -- then
-    -- freeFencesprice = self.storeItem.price
-        -- elseif
-    -- self.storeItem.name == 'Olive grove'
-		-- then
-    -- freeFencesprice = self.storeItem.price
-		-- else
-        -- freeFencesprice = 0
--- end 
-
  if self.storeItem.name == 'Grapevine' or self.storeItem.name == 'Olive grove' then
         freeFencesprice = self.storeItem.price
     else
